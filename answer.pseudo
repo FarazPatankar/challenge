@@ -1,0 +1,13 @@
+def name_number_generator(name)
+	#Picks a random number between 6 and 15
+	random_number = rand(6..15)
+
+	#Concatenates the name and the number
+	response = name + random_number.to_s
+
+	#Returns the response
+	response
+end
+
+#Prints out the response received from the method
+puts name_number_generator("Faraz")
